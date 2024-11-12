@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora 2 y 3</title>
+    <link rel="stylesheet" href="cssss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Bitácora 2 y 3</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#parcial2">Parcial 2</a></li>
+            <li><a href="#parcial3">Parcial 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Parcial 2 -->
+    <section id="parcial2">
+        <h2>Parcial 2</h2>
+
+        <!-- Flexbox -->
+        <article id="flexbox">
+            <h3>Flexbox</h3>
+            <ul>
+                <li><strong>Flex Direction</strong>: Define la dirección del flujo principal de los elementos flexibles (horizontal o vertical).</li>
+                <li><strong>Flex Wrap</strong>: Controla si los elementos deben ajustarse en una sola línea o en múltiples líneas.</li>
+                <li><strong>Flex Flow</strong>: Combinación de flex-direction y flex-wrap.</li>
+                <li><strong>Justify Content</strong>: Alinea los elementos a lo largo del eje principal (inicio, centro, final, espacio entre elementos).</li>
+                <li><strong>Gap</strong>: Define el espacio entre los elementos flexibles.</li>
+                <li><strong>Align Items</strong>: Alinea los elementos a lo largo del eje transversal (centro, inicio, final).</li>
+                <li><strong>Order</strong>: Establece el orden en que se muestran los elementos dentro del contenedor flexible.</li>
+                <li><strong>Flex Grow</strong>: Controla cuánto crece un elemento en comparación con los demás elementos.</li>
+                <li><strong>Flex Shrink</strong>: Define cómo se reduce el tamaño de un elemento en relación con los demás cuando no hay espacio suficiente.</li>
+                <li><strong>Flex Basis</strong>: Establece el tamaño inicial del elemento antes de que se distribuya el espacio adicional.</li>
+                <li><strong>Flex</strong>: Shorthand que combina flex-grow, flex-shrink y flex-basis.</li>
+                <li><strong>Align Self</strong>: Permite sobrescribir align-items para un elemento específico.</li>
+            </ul>
+        </article>
+
+        <!-- SVG -->
+        <article id="svg">
+            <h3>SVG</h3>
+            <p><strong>Origen</strong>: SVG (Scalable Vector Graphics) es un formato gráfico basado en XML para definir gráficos vectoriales bidimensionales. Fue desarrollado para usarse en la web y ofrece una forma de representar imágenes que se pueden escalar sin pérdida de calidad.</p>
+            <p><strong>Ventajas</strong>:</p>
+            <ul>
+                <li>Escalabilidad sin pérdida de calidad.</li>
+                <li>Menor tamaño de archivo en comparación con gráficos rasterizados para imágenes simples.</li>
+                <li>Interactividad y animación utilizando CSS y JavaScript.</li>
+                <li>Compatible con SEO al poder contener texto dentro de la imagen.</li>
+            </ul>
+            <p><strong>Información general</strong>: SVG se utiliza en múltiples aplicaciones, desde íconos y logotipos hasta gráficos complejos. Es ideal para diseños responsivos y permite una personalización fácil.</p>
+        </article>
+
+        <!-- :root -->
+        <article id="root">
+            <h3>:root</h3>
+            <p>:root es el selector de CSS que representa el nivel más alto del documento. Permite definir variables globales que se pueden reutilizar en todo el documento, como colores, fuentes y tamaños.</p>
+            <p>Ejemplo de uso:</p>
+            <pre>
+                :root {
+                    --primary-color: #333;
+                    --font-size-large: 2rem;
+                }
+            </pre>
+            <p>Las variables definidas en :root pueden utilizarse en el resto del CSS como <code>var(--primary-color)</code>.</p>
+        </article>
+
+        <!-- Carrera Universitaria -->
+        <article id="carrera">
+            <h3>Carrera Universitaria</h3>
+            <p>A continuación, se presentan tres fotos relacionadas con mi carrera universitaria:</p>
+            <div class="gallery">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+            </div>
+        </article>
+    </section>
+
+    <!-- Parcial 3 -->
+    <section id="parcial3">
+        <h2>Parcial 3</h2>
+
+        <!-- Frameworks -->
+        <article id="frameworks">
+            <h3>Frameworks</h3>
+            <p>Los frameworks de CSS son herramientas que facilitan el desarrollo de interfaces, al ofrecer estructuras de diseño predefinidas y estilos comunes. Ejemplos populares incluyen Bootstrap, Foundation y Bulma, que permiten crear layouts responsivos de forma rápida sin necesidad de escribir CSS desde cero.</p>
+        </article>
+
+        <!-- Unidades Responsivas -->
+        <article id="unidades-responsivas">
+            <h3>Unidades Responsivas</h3>
+            <p>Las unidades responsivas permiten adaptar el diseño a diferentes tamaños de pantalla:</p>
+            <ul>
+                <li><strong>vw</strong>: Unidad que representa el 1% del ancho de la ventana.</li>
+                <li><strong>vh</strong>: Unidad que representa el 1% de la altura de la ventana.</li>
+                <li><strong>rem</strong>: Unidad relativa basada en el tamaño de la fuente del elemento raíz (generalmente <code>html</code>).</li>
+                <li><strong>em</strong>: Unidad relativa basada en el tamaño de la fuente del elemento padre inmediato.</li>
+            </ul>
+            <p>Estas unidades son fundamentales para crear un diseño adaptable a diferentes dispositivos.</p>
+        </article>
+
+        <!-- Mobile First -->
+        <article id="mobile-first">
+            <h3>Mobile First</h3>
+            <p>El enfoque de Mobile First consiste en diseñar una página web para dispositivos móviles como prioridad y luego adaptarla a pantallas más grandes. Esto garantiza que el sitio sea eficiente y accesible en dispositivos con menos capacidad y tamaño de pantalla.</p>
+            <p>Se suele combinar con media queries, donde se definen primero los estilos para móviles y luego se amplían para pantallas más grandes.</p>
+        </article>
+
+        <!-- Módulo Grid -->
+        <article id="grid">
+            <h3>Módulo Grid</h3>
+            <p>CSS Grid es un sistema de diseño de dos dimensiones que permite crear layouts complejos. A diferencia de Flexbox, que trabaja en una sola dimensión, Grid permite organizar elementos en filas y columnas.</p>
+            <p>Propiedades importantes:</p>
+            <ul>
+                <li><strong>grid-template-columns</strong>: Define el número y tamaño de las columnas.</li>
+                <li><strong>grid-template-rows</strong>: Define el número y tamaño de las filas.</li>
+                <li><strong>grid-gap</strong>: Espacio entre las celdas de la cuadrícula.</li>
+                <li><strong>grid-area</strong>: Permite que los elementos ocupen varias celdas.</li>
+            </ul>
+        </article>
+
+        <!-- @supports -->
+        <article id="supports">
+            <h3>@supports</h3>
+            <p>@supports es una regla de CSS que permite aplicar estilos solo si el navegador es compatible con una propiedad o valor específico. Esto permite crear estilos alternativos o "fallbacks" para navegadores que no soportan algunas propiedades avanzadas.</p>
+            <p>Ejemplo:</p>
+            <pre>
+                @supports (display: grid) {
+                    .container {
+                        display: grid;
+                    }
+                }
+            </pre>
+            <p>En el ejemplo, se aplica <code>display: grid</code> solo si el navegador es compatible con esta propiedad.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Víctor Hernández</p>
+        <p>Docente: Adrián Alonso Durán Coronado</p>
+        <p>Matrícula: 223655</p>
+    </footer>
+
+</body>
+</html>
